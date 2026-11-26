@@ -9,11 +9,11 @@
         <form id="mainform" method="post" action="">
             <table border="1" cellspacing="0" cellpadding="5">
                 <tr>
-                    <td>Nội dung</td>
+                    <td>Nội dung 1</td>
                     <td><textarea id="content" cols="40" rows="5"></textarea></td>
                 </tr>
                 <tr>
-                    <td>Captcha</td>
+                    <td>Captcha </td>
                     <td>
                         <img src="image.php" id="img-captcha"/>
                         <input type="button" value="Reload" onclick="$('#img-captcha').attr('src', 'image.php?rand=' + Math.random())" /> <br/>
